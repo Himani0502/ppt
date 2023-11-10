@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "title": "Introduction to Company Policies",
+      "content": "Our company prioritizes a culture of openness and collaboration. All employees are expected to adhere to the company policies outlined in this document."
+    },
+    {
+      "id": 2,
+      "title": "Vacation Request Process",
+      "content": "To request vacation, employees should fill out the vacation request form available on the company's intranet. The form should be submitted at least two weeks before the intended vacation dates."
+    },
+    {
+      "id": 3,
+      "title": "Meeting Room Reservation",
+      "content": "To reserve a meeting room, use the online booking system accessible through the company's intranet. Make sure to provide details such as the date, time, and purpose of the meeting."
+    },
+    {
+      "id": 4,
+      "title": "IT Support",
+      "content": "For IT support, contact the IT helpdesk by sending an email to support@company.com or calling the IT hotline at xxx-xxx-xxxx. Please include a brief description of the issue and your contact information."
+    }
+  ]
+  
