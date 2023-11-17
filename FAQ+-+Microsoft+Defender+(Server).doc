@@ -1,0 +1,378 @@
+Date: Fri, 17 Nov 2023 06:01:09 -0500 (EST)
+Message-ID: <850824001.122925.1700218869448@usmdclxp00459.nix.us.kworld.kpmg.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_122924_1724562739.1700218869446"
+
+------=_Part_122924_1724562739.1700218869446
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>FAQ - Microsoft Defender (Server)</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>FAQ - Microsoft Defender (Server)</h1>
+    <div class=3D"Section1">
+        <p><style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1700218869352 {padding: 0px;}
+div.rbtoc1700218869352 ul {margin-left: 0px;}
+div.rbtoc1700218869352 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1700218869352">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#FAQMicrosoftDefender(Server)-Overview:">Overview:</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#FAQMicrosoftDefender(Server)-WhydoweneedMicrosoftDefender?"=
+>Why do we need Microsoft Defender?</a></li>
+<li><a href=3D"#FAQMicrosoftDefender(Server)-Whoisresponsibleformanagingpla=
+tformupdatesandexceptionrules?">Who is responsible for managing platform up=
+dates and exception rules?</a></li>
+<li><a href=3D"#FAQMicrosoftDefender(Server)-Whowillbemonitoringthissystem?=
+">Who will be monitoring this system?</a></li>
+<li><a href=3D"#FAQMicrosoftDefender(Server)-DoIneedanythingelsetobeinstall=
+edforEndpointorAntivirustowork?">Do I need anything else to be installed fo=
+r Endpoint or Antivirus to work?</a></li>
+<li><a href=3D"#FAQMicrosoftDefender(Server)-I'mhavingaproblemwithMicrosoft=
+Defenderthatisnotansweredbyanyofthesequestions,whatshouldIdo?">I'm having a=
+ problem with Microsoft Defender that is not answered by any of these quest=
+ions, what should I do?</a></li>
+</ul></li>
+<li><a href=3D"#FAQMicrosoftDefender(Server)-Anti-VirusRestrictions:">Anti-=
+Virus Restrictions:</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#FAQMicrosoftDefender(Server)-Whyaremyfilesbeingblockeddurin=
+gDefender'sAnti-Virusscan?">Why are my files being blocked during Defender'=
+s Anti-Virus scan?</a></li>
+<li><a href=3D"#FAQMicrosoftDefender(Server)-HowdoIremovespecificfilesordir=
+ectoriesfromAnti-VirusScans?">How do I remove specific files or directories=
+ from Anti-Virus Scans?</a></li>
+</ul></li>
+</ul>
+</div>
+<p></p>
+<h1 id=3D"FAQMicrosoftDefender(Server)-Overview:">Overview:</h1>
+<hr>
+<p><span style=3D"color: rgb(0,51,102);">Microsoft Defender, formerly known=
+ as Microsoft Windows Defender, is a cloud-based security platform designed=
+ to prevent, detect, investigate, and respond to cyber threats. It is repla=
+cing the Symantec Antivirus Solution and Carbon Black EDR on all US servers=
+. There are several parts to Microsoft Defender; however, this document is =
+focused specifically on Microsoft Defender for Endpoints (MDE) and Microsof=
+t Defender Antivirus (MDAV) on the server side.&nbsp;</span></p>
+<h3 id=3D"FAQMicrosoftDefender(Server)-WhydoweneedMicrosoftDefender?">Why d=
+o we need Microsoft Defender?</h3>
+<ul>
+<li>Microsoft Defender is part of Microsoft's Security suite and is designe=
+d to protect your workstation from a variety of threats. It is a unified pr=
+e- and post-breach enterprise defense suite that natively coordinates detec=
+tion, prevention, investigation, and response across endpoints, identities,=
+ email, and applications to provide integrated protection against sophistic=
+ated attacks.</li>
+</ul>
+<h3 id=3D"FAQMicrosoftDefender(Server)-Whoisresponsibleformanagingplatformu=
+pdatesandexceptionrules?">Who is responsible for managing platform updates =
+and exception rules?</h3>
+<ul>
+<li>Updates are monitored by Security Engineering. All updates are currentl=
+y being pulled directly Microsoft for physical workstations within the US M=
+ember Firm. All VDI are pulling security intelligence updates and from a fi=
+les share.&nbsp;</li>
+</ul>
+<h3 id=3D"FAQMicrosoftDefender(Server)-Whowillbemonitoringthissystem?"><spa=
+n>Who will be monitoring this system?</span></h3>
+<ul>
+<li>The US Firm is being monitored by the Cybersecurity Incident Response T=
+eam (CSIRT). Microsoft Endpoint Manager (MEM) is handled by Global but goes=
+ through Security Engineering</li>
+</ul>
+<h3 id=3D"FAQMicrosoftDefender(Server)-DoIneedanythingelsetobeinstalledforE=
+ndpointorAntivirustowork?">Do I need anything else to be installed for Endp=
+oint or Antivirus to work?</h3>
+<ul>
+<li>Yes, because Endpoint and Antivirus work together, they both must be in=
+stalled for the system to be able to properly detect malicious activity. MD=
+E additionally requires MDAV to be installed, turned on and in passive mode=
+.&nbsp;&nbsp;</li>
+</ul>
+<h3 id=3D"FAQMicrosoftDefender(Server)-I'mhavingaproblemwithMicrosoftDefend=
+erthatisnotansweredbyanyofthesequestions,whatshouldIdo?">I'm having a probl=
+em with Microsoft Defender that is not answered by any of these questions, =
+what should I do?</h3>
+<ul>
+<li>If you are having an issue with Microsoft Defender and cannot find the =
+answer within this document, please call the Digital Desk at<span>&nbsp;</s=
+pan><strong>1-800-KPMG-HELP</strong><span>&nbsp;</span>(800-576-4435) o<spa=
+n style=3D"color: rgb(113,113,113);">r via&nbsp;</span><a class=3D"external=
+-link" href=3D"https://kpmg.service-now.com/coretech" style=3D"text-decorat=
+ion: none;text-align: left;" rel=3D"nofollow"><strong>Core|Tech</strong></a=
+><span>&nbsp;</span>and create a ticket.&nbsp;</li>
+</ul>
+<h1 id=3D"FAQMicrosoftDefender(Server)-Anti-VirusRestrictions:">Anti-Virus =
+Restrictions:</h1>
+<hr>
+<h3 id=3D"FAQMicrosoftDefender(Server)-WhyaremyfilesbeingblockedduringDefen=
+der'sAnti-Virusscan?">Why are my files being blocked during Defender's Anti=
+-Virus scan?</h3>
+<ul>
+<li>Due to the nature of AV scanning, sometimes the tool becomes overzealou=
+s and blocks any file that has the possibility of being or becoming malicio=
+us. If Defender is incorrectly blocking a necessary file, you will be requi=
+red to submit an <a href=3D"https://kpmg.service-now.com/auth_redirect.do?s=
+ysparm_stack=3Dno&amp;sysparm_url=3Dhttps%3A%2F%2Flogin.microsoftonline.com=
+%2Fdeff24bb-2089-4400-8c8e-f71e680378b2%2Fsaml2%3FSAMLRequest%3DlVJdb9owFP0=
+rkd%252BdOIZCsAgSA01D6rqo0D3szXGuqbXEznwd2v77pYaq7cOQ9up77vm6XqLsWt6L9RAe7T=
+38GQBD8ty1FsV5UpLBW%252BEkGhRWdoAiKLFff78VPGWi9y445VqSrBHBB%252BPsxlkcOvB78=
+Cej4OH%252BtiSPIfQosux33x1TPA%252BodU%252Bpcl1m5amXR0gbR5LtKG%252BsfOV532rd=
+0di0M8o7dDo42xoLcbUBrfm0rilnxYJOp4zRQhVA9TyHWcEm86LmWcxBkq%252FOK4gxS6Jli0C=
+S3bYk%252B7tNvcj54kaqfMbq2bxR80muOfCJmmkAUJMRiJVENCd4X0UcYGcxSBtKwhnnlBWULQ=
+6ciSkXjKc8v%252FlFkupS0BdjG2OP19uszyAU3w6HilY%252F9odIcDIN%252BLsR%252FR9F%=
+252FgSPscSRl6yWsQMRTfuP573uR77dlKyuCS%252Bzj%252FQXsV68Ot5tK9ca9ZKs29Y9bTzI=
+MKYIfoB4kE6GfzvI0zy%252BmIbqCBWDxR6U0QYakq0usp%252F%252F7uov%26RelayState%3=
+Dhttps%253A%252F%252Fkpmg.service-now.com%252Fcoretech%253Fid%253Dharmony_s=
+c_cat_item%2526sys_id%253Db19aa1af6ffb8a401dc793b0be3ee46d" class=3D"extern=
+al-link" rel=3D"nofollow">exclusion request</a>.&nbsp;&nbsp;</li>
+</ul>
+<h3 id=3D"FAQMicrosoftDefender(Server)-HowdoIremovespecificfilesordirectori=
+esfromAnti-VirusScans?">How do I remove specific files or directories from =
+Anti-Virus Scans?</h3>
+<ul>
+<li>If you would like to request that certain files, directories, or extens=
+ions are excluded from Anti-Virus Scans, you will need to fill out an <a hr=
+ef=3D"https://kpmg.service-now.com/coretech?id=3Dharmony_sc_cat_item&amp;sy=
+s_id=3Db19aa1af6ffb8a401dc793b0be3ee46d" class=3D"external-link" rel=3D"nof=
+ollow">Exclusion Request Form</a>.&nbsp;</li>
+</ul>
+<p style=3D"margin-left: 40.0px;"><em><strong>Please note:</strong> This fo=
+rm is <strong>only </strong>for servers, for workstation exclusions please =
+visit the <a href=3D"https://kiki.us.kworld.kpmg.com/pages/viewpage.action?=
+pageId=3D471929490" rel=3D"nofollow">FAQ - Microsoft Defender (Workstation)=
+</a></em><em> document.&nbsp;</em></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_122924_1724562739.1700218869446--
