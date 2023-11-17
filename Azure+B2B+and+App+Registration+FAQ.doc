@@ -1,0 +1,534 @@
+Date: Fri, 17 Nov 2023 06:03:55 -0500 (EST)
+Message-ID: <1913730311.122927.1700219035656@usmdclxp00459.nix.us.kworld.kpmg.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_122926_686774527.1700219035656"
+
+------=_Part_122926_686774527.1700219035656
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Azure B2B and App Registration FAQ</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Azure B2B and App Registration FAQ</h1>
+    <div class=3D"Section1">
+        <div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd">Question</td>
+<td class=3D"confluenceTd">Area of FAQ</td>
+<td class=3D"confluenceTd">Reason Believed Clients Ask Question</td>
+<td class=3D"confluenceTd">Answer</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">1</td>
+<td class=3D"confluenceTd">What is B2B? How does KPMG know our users=E2=80=
+=99 credentials and passwords?</td>
+<td class=3D"confluenceTd">General B2B use</td>
+<td class=3D"confluenceTd">They do not understand what Azure B2B is and/or =
+they have not had a reason to use it in prior engagements with external thi=
+rd-parties in Azure.</td>
+<td class=3D"confluenceTd"><a href=3D"https://urldefense.com/v3/__https:/do=
+cs.microsoft.com/en-us/azure/active-directory/external-identities/what-is-b=
+2b__;!!OgNkHJCYlf_CHg!fF_qhCMSjMT-GOaTduR3kzT_lamy9Q2eyyUdb8R1CSEBn1pvYf5Qf=
+szFENbhOUaxpkf-dzTb9UM1dQNZTL80hH0mLA$" class=3D"external-link" rel=3D"nofo=
+llow">KPMG Clara for clients utilizes Microsoft Azure Active Directory (Azu=
+re AD) Business to Business (B2B) for the authentication model to invite gu=
+est users to collaborate with us and use their own credentials to access/lo=
+g in. See the Microsoft documentation regarding B2B collaboration overview =
+for further information.&nbsp;</a></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">2</td>
+<td class=3D"confluenceTd">We do not use Azure or not aware we use Azure fo=
+r Active Directory, is there a way for our entity to confirm Azure use?&nbs=
+p;</td>
+<td class=3D"confluenceTd">General B2B use</td>
+<td class=3D"confluenceTd">They do not know they use Azure Active Directory=
+.&nbsp;</td>
+<td class=3D"confluenceTd">Use the public Azure web service (<a href=3D"htt=
+ps://gettenantpartitionweb.azurewebsites.net/" class=3D"external-link" rel=
+=3D"nofollow">https://gettenantpartitionweb.azurewebsites.net/</a>) to dete=
+rmine if your organization has any subscription with Azure services.&nbsp;<=
+/td>
+</tr>
+<tr>
+<td rowspan=3D"2" class=3D"confluenceTd">3</td>
+<td rowspan=3D"2" class=3D"confluenceTd">What steps does our organization n=
+eed to do to set up B2B to be enabled for our users can use KCfc?</td>
+<td rowspan=3D"2" class=3D"confluenceTd">Initial B2B setup</td>
+<td rowspan=3D"2" class=3D"confluenceTd">Never have setup B2b with another =
+provider or another firm.</td>
+<td class=3D"confluenceTd">If Azure AD B2B is not yet enabled for external =
+collaboration for your users, follow the steps here on Microsoft=E2=80=99s =
+page on setting up B2B collaboration with an external organization.</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><a href=3D"https://learn.microsoft.com/en-us/azu=
+re/active-directory/external-identities/cross-tenant-access-settings-b2b-co=
+llaboration" class=3D"external-link" rel=3D"nofollow">Configure B2B collabo=
+ration cross-tenant access - Azure AD - Microsoft Entra | Microsoft Learn</=
+a></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">4</td>
+<td class=3D"confluenceTd">What is the Tenant ID and do we need it to enabl=
+ed B2B for use with KCfc?</td>
+<td class=3D"confluenceTd">Initial B2B setup</td>
+<td class=3D"confluenceTd">Enable B2B to allow users from the organization =
+to access another organization's application.</td>
+<td class=3D"confluenceTd"><br>
+Tenant ID generally is not needed to enable B2B for use, however, if your o=
+rganization is desiring to use cross tenant access settings, the tenant ID =
+can be provided by KPMG Cloud Operations.</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">5</td>
+<td class=3D"confluenceTd">What is the Domain Name and do we need it to ena=
+bled B2B for use with KCfc?</td>
+<td class=3D"confluenceTd">Initial B2B setup</td>
+<td class=3D"confluenceTd">Enable B2B to allow users from the organization =
+to access another organization's application.</td>
+<td class=3D"confluenceTd">KPMG.ONMICROSOFT.COM<br><br>
+Domain name generally is not needed to enable B2B for use, however, if your=
+ organization is desiring to use cross tenant access settings, the domain n=
+ame is needed for Tenant Restrictions.&nbsp;</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">6</td>
+<td class=3D"confluenceTd">What is the Application ID and do we need it to =
+enabled B2B for use with KCfc?</td>
+<td class=3D"confluenceTd">Initial B2B setup</td>
+<td class=3D"confluenceTd">Cross tenant access settings setup - to restrict=
+ users access to certain external applications through B2B collaboration.</=
+td>
+<td class=3D"confluenceTd">The application utilizes SharePoint Online as a =
+SaaS platform, the application ID is the enterprise app for O365 SharePoint=
+ Online Enterprise Application.<br><br>
+The application is not a custom application, therefore application ID s not=
+ needed for B2B enablement.<br><br>
+Application ID generally is not needed to enable B2B for use, however, if y=
+our organization is desiring to use cross tenant access settings, the appli=
+cation ID is needed for Tenant Restrictions.&nbsp;</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">7</td>
+<td class=3D"confluenceTd">Can KPMG integrate with our organization=E2=80=
+=99s entitlement system?</td>
+<td class=3D"confluenceTd">General B2B use</td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd">The KPMG engagement team manages client user acc=
+ess to KPMG Clara for clients. KPMG does not support integration with organ=
+ization=E2=80=99s entitlement systems for granting access to KPMG Clara for=
+ clients.&nbsp;</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">8</td>
+<td class=3D"confluenceTd">Can we use SAML (Direct Federation or now called=
+ SAML/WS-Fed identity provider (IdP) federation) with KCfc?</td>
+<td class=3D"confluenceTd">General B2B use</td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd">Not supported by Microsoft.&nbsp; If a client is=
+ using Azure AD they cannot using SAML.&nbsp; Details from Microsoft here: =
+<a href=3D"https://learn.microsoft.com/en-us/azure/active-directory/externa=
+l-identities/direct-federation#can-i-set-up-samlws-fed-idp-federation-with-=
+azure-ad-verified-domains" class=3D"external-link" rel=3D"nofollow">&nbsp;h=
+ttps://learn.microsoft.com/en-us/azure/active-directory/external-identities=
+/direct-federation#can-i-set-up-samlws-fed-idp-federation-with-azure-ad-ver=
+ified-domains</a></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">9</td>
+<td class=3D"confluenceTd">Can we use B2B direct with KCfc?</td>
+<td class=3D"confluenceTd">General B2B use</td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd">Currently this is NOT supported by KPMG (not sca=
+lable as Microsoft allows a finite amount of whitelisting IP ranges, and Gl=
+obal manages all member firms).&nbsp; Azure B2B is what we are currently su=
+pporting.</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">10</td>
+<td class=3D"confluenceTd">Can we use Azure AD B2C with KCfc?</td>
+<td class=3D"confluenceTd">General B2B use</td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd">No, Azure AD B2C is a separate product in Azure =
+and does not integrate with SharePoint Online (SPO), which KPMG Clara for c=
+lients utilizes.</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">11</td>
+<td class=3D"confluenceTd">Do you offer IP whitelisting to restrict our use=
+rs from accessing KCfc for non-client devices?</td>
+<td class=3D"confluenceTd">Initial B2B setup</td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd">KPMG does support IP whitelisting as an alternat=
+ive for device restriction policies that are managed from the&nbsp; client =
+organization side.</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">12</td>
+<td class=3D"confluenceTd">Does KPMG support Cross Tenant Access Settings f=
+eature to be used with KCfc?&nbsp;</td>
+<td class=3D"confluenceTd">Initial B2B setup</td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd">KPMG does not currently support Cross Tenant Set=
+tings feature.&nbsp;</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">13</td>
+<td class=3D"confluenceTd">Can you trust our MFA through a Conditional Acce=
+ss Policy?</td>
+<td class=3D"confluenceTd">Initial B2B setup</td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd">KPMG requires all external users to complete Mul=
+ti-factor authentication to access KCfc. KPMG does not support =E2=80=9Ctru=
+st=E2=80=9D relationships with external organizations through cross access =
+tenant settings.&nbsp;&nbsp;</td>
+</tr>
+<tr>
+<td rowspan=3D"3" class=3D"confluenceTd">14</td>
+<td rowspan=3D"3" class=3D"confluenceTd">What URLs, subdomains, and/or IP r=
+anges do we need to whitelist and/or unblock for KCfc? Examples of subdomai=
+ns:<br><br>
+Example Name:&nbsp;&nbsp;&nbsp; <a href=3D"http://dual-spo-0004.spo-msedge.=
+net" class=3D"external-link" rel=3D"nofollow">dual-spo-0004.spo-msedge.net<=
+/a><br>
+Addresses:&nbsp; 13.107.136.9<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 13.107.138.9<br>
+Aliases:&nbsp; <a href=3D"http://conocophillips.sharepoint.com" class=3D"ex=
+ternal-link" rel=3D"nofollow">conocophillips.sharepoint.com</a><br><a href=
+=3D"http://602-ipv4e.clump.prod.aa-rt.sharepoint.com" class=3D"external-lin=
+k" rel=3D"nofollow">602-ipv4e.clump.prod.aa-rt.sharepoint.com</a><br><a hre=
+f=3D"http://18696-ipv4e.farm.prod.aa-rt.sharepoint.com" class=3D"external-l=
+ink" rel=3D"nofollow">18696-ipv4e.farm.prod.aa-rt.sharepoint.com</a><br><a =
+href=3D"http://18696-ipv4e.farm.prod.sharepointonline.com.akadns.net" class=
+=3D"external-link" rel=3D"nofollow">18696-ipv4e.farm.prod.sharepointonline.=
+com.akadns.net</a><br><a href=3D"http://18696-ipv4.farm.prod.aa-rt.sharepoi=
+nt.com.dual-spo-0004.spo-msedge.net" class=3D"external-link" rel=3D"nofollo=
+w">18696-ipv4.farm.prod.aa-rt.sharepoint.com.dual-spo-0004.spo-msedge.net</=
+a></td>
+<td rowspan=3D"3" class=3D"confluenceTd">Initial B2B setup</td>
+<td rowspan=3D"3" class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd">Whitelist the following domains:<br><a href=3D"h=
+ttps://kpmgus.sharepoint.com/*" class=3D"external-link" rel=3D"nofollow">ht=
+tps://kpmgus.sharepoint.com/*</a><br><a href=3D"https://login.microsoftonli=
+ne.com/*" class=3D"external-link" rel=3D"nofollow">https://login.microsofto=
+nline.com/*</a><br><br>
+Additionally, in order to enable the use of these cloud services, Microsoft=
+=C2=AE publishes the details of the endpoints that need to be accessible (i=
+.e., not blocked or specifically whitelisted).</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Office 365 URLs and IP address ranges - Microsof=
+t 365 Enterprise | Microsoft Learn</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">The documentation published by Microsoft=C2=AE e=
+ncompasses all services available in the Microsoft cloud=C2=AE. The section=
+s that are specific to the KPMG Clara solution architecture are listed unde=
+r the headings:<br>
+SharePoint online<br>
+Microsoft 365 common and Office Online<br><br>
+As these endpoints are subject to change overtime, it=E2=80=99s important t=
+hat this information is monitored, and any associated whitelisting rules ar=
+e updated in accordance with changes.&nbsp;<br><br>
+Subdomains XYX</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">15</td>
+<td class=3D"confluenceTd">Are third-party cookies in the browser required =
+to be enabled for the KCfc sites for our users to access KCfc?</td>
+<td class=3D"confluenceTd">Initial B2B setup</td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd">**Developers/Application owner needs to advise o=
+n if it is required to access/use KCfc</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">16</td>
+<td class=3D"confluenceTd">Our company will not allow use of B2B with KCfc =
+are their alternative options to allow our users to access KCfc?</td>
+<td class=3D"confluenceTd">General B2B use</td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd">KPMG user Microsoft's Azure Active Directory Bus=
+iness to Business (B2B) for authentication of guest users to KPMG Clara for=
+ clients. If your organization's users have an Azure ID in your tenant they=
+ will log in with that account, however, if your organization does not have=
+ Azure IDs or use Azure then guest users will be prompted to self-register =
+for a Microsoft account upon clicking the KPMG guest user redemption invita=
+tion. B2B performs a validation upon KPMG initiating the user by their emai=
+l address as a new guest user, therefore, if the email address is associate=
+d to a Azure ID users must use that account to log in to KPMG Clara for cli=
+ents.</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">17</td>
+<td class=3D"confluenceTd"><p>Our organization has primary and alternate Az=
+ure IDs for each employee, why do our users authenticate with the alternate=
+ ID rather than their email address?&nbsp;</p></td>
+<td class=3D"confluenceTd">B2B use</td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd">Microsoft Guide to Configuring Alternate ID: <a =
+href=3D"https://learn.microsoft.com/en-us/windows-server/identity/ad-fs/ope=
+rations/configuring-alternate-login-id" class=3D"external-link" rel=3D"nofo=
+llow">Configuring Alternate Login ID | Microsoft Learn</a></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">18&nbsp;</td>
+<td class=3D"confluenceTd"><p>Can you provide instructions for accepting gu=
+est invitations from Azure B2B?</p></td>
+<td class=3D"confluenceTd">B2B use</td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><a href=3D"https://assets.kpmg.com/content/dam/k=
+pmg/us/pdf/2021/09/kcfc-guest-user-registration-and-login-guide.pdf" class=
+=3D"external-link" rel=3D"nofollow">kcfc-guest-user-registration-and-login-=
+guide.pdf (kpmg.com)</a></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">19&nbsp;</td>
+<td class=3D"confluenceTd"><p>External Invitation Redemption Process in Azu=
+re B2B</p></td>
+<td class=3D"confluenceTd">B2B use</td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><a href=3D"https://learn.microsoft.com/en-us/azu=
+re/active-directory/external-identities/redemption-experience#invitation-re=
+demption-flow" class=3D"external-link" rel=3D"nofollow">https://learn.micro=
+soft.com/en-us/azure/active-directory/external-identities/redemption-experi=
+ence#invitation-redemption-flow</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_122926_686774527.1700219035656--
